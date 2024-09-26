@@ -1,25 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 
-</head>
 <style>
-    body{
-        background-color: aqua;
-        margin: 0%;
-        text-align: center;
-        color: black;
+div
+{
+font-size:20px;
+text-align:Center;
+word-spacing: 15px;
+}
 
-    }
+p
+{
+font-size:20px;
+}
+
+h1
+{
+font-size:40px;
+text-align:Center;
+color: Sienna
+}
+
 </style>
-<body>
-    <h1>welcome to gitpages</h1>
-    <p>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
-  </p>
-  <img src="event.jpg" width="50px" height="50px">
+</head>
+<body style="background-color:FFDAB9";>
+<title>CLOUD-Restuarants</title>
+
+<div>
+	<a href="psv-res.html"><u>HOME</u></a>
+	<a><u>MENU</u></a>
+	<a><u>RESERVE_TABLE</u></a>
+	<a><u>ABOUT_US</u></a>
+	<a><u>CONTACT</u></a>
+
+</div>
+<h1>WELCOME TO CLOUD Restuarant</h1>
+<img src="event.jpg" width="1500" height="700">
+
+
+
 </body>
 </html>
