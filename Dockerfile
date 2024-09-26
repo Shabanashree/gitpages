@@ -1,12 +1,7 @@
-# Use an official Nginx base image
-FROM nginx
 
-# Copy the index.html file to the default Nginx location
+FROM nginx
 COPY index.html /usr/share/nginx/html
 COPY event.jpg /usr/share/nginx/html
-# Expose port 80
-EXPOSE 9000
-
-# Start Nginx server
+EXPOSE 8081
 CMD ["nginx", "-g", "daemon off;"]
 
